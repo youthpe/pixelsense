@@ -44,15 +44,15 @@ ul li {
 .menu .navbar-default .navbar-nav > li > a {
   font-size: 15px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
-  color: #666;
-  padding: 5px 15px;
+  font-weight:500;
+  color: #f3f3f3;
+  padding: 40px 15px;
 }
 .menu .navbar-default .navbar-nav > li > a:hover {
-  color: #f48e5c;
+  color: #569bf6;
 }
 .menu .navbar-nav {
-  float: none;
+  float: right;
   display: inline-block;
 }
 .menu .navbar {
@@ -64,7 +64,7 @@ header {
   -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-  background: rgba(255, 255, 255, 0.96);
+  background: #101012;
   padding: 8px 0;
   position: fixed;
   width: 100%;
@@ -72,26 +72,7 @@ header {
 }
 header .logo {
   display: inline-block;
-  margin-top: 8px;
-}
-header .social-info {
-  margin-bottom: 0;
-  padding-top: 8px;
-  text-align: right;
-}
-header .social-info li {
-  display: inline-block;
-}
-header .social-info li:first-child a {
-  border-left: 1px solid #dedede;
-}
-header .social-info li a {
-  color: #aeaeae;
-  padding: 3px 8px;
-  border-right: 1px solid #dedede;
-}
-header .social-info li a:hover {
-  color: #f48e5c;
+  margin-top: 6px;
 }
 #banner {
   background-size: cover;
@@ -334,6 +315,9 @@ header .social-info li a:hover {
 }
 #subscribe .btn-signup:hover i {
   color: #77c344;
+}
+body {
+  background: #101012;
 }
 footer {
   background: #f9f9f9;
