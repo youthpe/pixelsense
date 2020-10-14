@@ -12,13 +12,6 @@ px      68    160    252    344    436    528    620    712    */
   .menu .navbar-default .navbar-nav > li > a {
     padding: 5px 7px;
   }
-  #banner .block .download-btn li {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  #banner .block .download-btn li a {
-    display: block;
-  }
   #banner {
     padding: 40px 0;
   }
@@ -30,12 +23,6 @@ px      68    160    252    344    436    528    620    712    */
   }
   #banner .block > p {
     margin-bottom: 20px;
-  }
-  #service .block {
-    margin-bottom: 40px;
-  }
-  #service .service-wrapper {
-    padding: 80px 0;
   }
   #feature {
     padding: 30px 0;
